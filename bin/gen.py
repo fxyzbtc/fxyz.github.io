@@ -71,7 +71,7 @@ def main(dirs, index: Path, tpl: str) -> None:
         result = []
         result.append(tpl)
         for fpath in dirs:
-            result.append(f'## {fpath.name}')
+            result.append(f'## {fpath.name}\n')
             for sub_fpath in fpath.iterdir():
                 if sub_fpath.is_file() and sub_fpath.name.split('.')[1] == 'md':
                     mk = MD(sub_fpath)

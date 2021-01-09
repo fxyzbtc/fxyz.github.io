@@ -62,7 +62,7 @@ class MD(object):
         finally:
             return True if 'true' in draft else False
 
-def main(dirs: Iterator, index: Path, tpl: str) -> None:
+def main(dirs, index: Path, tpl: str) -> None:
     """
     dir: Path, be iterated path
     index: Path, be written with file list

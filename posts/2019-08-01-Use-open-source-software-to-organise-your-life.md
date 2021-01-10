@@ -1,4 +1,3 @@
-
 ---
 display: false
 date: 2009-08-01

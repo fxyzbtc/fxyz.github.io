@@ -5,10 +5,17 @@
 1. 2021-01-10, [About Myself](about/me.md)
 ## pages
 
+<<<<<<< HEAD
 1. 2021-01-10, [我的书签](pages/bookmarks.md)
 1. [2019-06-01, IELTS Speaking Assistant - Part 1](pages/speaking1.html)
 1. [2019-06-01, IELTS Speaking Assistant - Part 2](pages/speaking23.html)
 1. 2020-06-19, [吸猫](pages/吸猫.md)
+=======
+1. [2019-06-01, IELTS Speaking Assistant - Part 1](pages/speaking1.html)
+1. 2021-01-10, ["我的书签"](pages/bookmarks.md)
+1. [2019-06-01, IELTS Speaking Assistant - Part 2](pages/speaking23.html)
+1. 2020-06-19, ["吸猫"](pages/吸猫.md)
+>>>>>>> 9d9cd06b50664fe67ba01717733468f547584029
 ## posts
 
 1. 2009-01-01, [Install Linux With Pen Drive](posts/2009-01-01-install-linux-with-usb-drive.md)

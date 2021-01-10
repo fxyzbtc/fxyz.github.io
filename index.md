@@ -2,9 +2,9 @@
 
 ## about
 1. 2021-01-10, [AboutMyself](about/me.md)
-1. 2021-01-10, [书签](about/tags.md)
+1. 2021-01-10, [tags](about/tags.md)
 ## pages
-1. 2021-01-10, [文摘](pages/bookmarks.md)
+1. 2021-01-10, [我的书签](pages/bookmarks.md)
 1. [2019-06-01, IELTS Speaking Assistant - Part 1](pages/speaking1.html)
 1. [2019-06-01, IELTS Speaking Assistant - Part 2](pages/speaking23.html)
 1. 2020-06-19, [吸猫](pages/吸猫.md)

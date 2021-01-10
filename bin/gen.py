@@ -1,5 +1,6 @@
 # -*- coding: utf8 -*-
 
+from hashlib import md5
 from os import name
 from pathlib import Path
 import logging
@@ -37,7 +38,7 @@ class MD(object):
         with open(fpath, encoding='utf8') as fp:
             self.md = markdown(fp.read(), extras=['metadata'])
             self.meta = self.md.metadata
-
+            self.path = fpath
     @property
     def date(self) -> str:
         try:
@@ -88,7 +89,7 @@ def iterate_links(fpath: Path) -> list:
     result = []
     for sub_fpath in fpath.iterdir():
         # md files
-        if sub_fpath.is_file() and sub_fpath.name.split('.')[1] == 'md':
+        if sub_fpath.is_file() and sub_fpath.suffix == '.md':
             mk = MD(sub_fpath)
             if not mk.is_draft:
                 # bookmark md without content
@@ -98,7 +99,7 @@ def iterate_links(fpath: Path) -> list:
                 else:
                     result.append(f'1. {mk.date}, [{mk.title}]({fpath.name}/{sub_fpath.name})')
         # or html files
-        if sub_fpath.is_file() and sub_fpath.name.split('.')[1] == 'html':
+        if sub_fpath.is_file() and sub_fpath.suffix == '.html':
             title = extract_html_title(sub_fpath)
             result.append(f'1. [{title}]({fpath.name}/{sub_fpath.name})')
 
@@ -107,7 +108,7 @@ def iterate_links(fpath: Path) -> list:
 def iterate_all_pages_tags(fpath: Path) -> dict:
     result = {}
     for sub_fpath in fpath.iterdir():
-        if sub_fpath.name.split('.')[1] == 'md':
+        if sub_fpath.suffix == '.md':
             md = MD(sub_fpath)
             try:
                 tags = META_INVALID_CHARS.sub('', md.meta['tags'])
@@ -149,10 +150,9 @@ def gen_tag_pages(dirs, index: Path, tpl: str) -> None:
         with open(tag_fpath, 'w', encoding='utf8') as tag_fp:
             result.append(f'## {name}')
             for link in links:
-                mk = MD(Path(link))
-                title = mk.title
-                date = mk.date
-                result.append(f'* {date}, [{title}](../{link})')
+                md = MD(Path(link))
+                date = md.date
+                result.append(f'* {date}, [{md.path.name}](../{link})')
             tag_fp.write('\n'.join(result))
             logging.debug(f'_wrote tag page {name}')
 

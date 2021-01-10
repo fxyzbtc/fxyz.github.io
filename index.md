@@ -1,0 +1,41 @@
+> Last Update: 2021-01-10
+
+## about
+
+1. 2021-01-10, [About Myself](about/me.md)
+## pages
+
+1. 2021-01-10, ["我的书签"](pages/bookmarks.md)
+1. [IELTS Speaking](pages/speaking1.html)
+1. [IELTS Speaking Assistant](pages/speaking23.html)
+1. 2020-06-19, ["吸猫"](pages/吸猫.md)
+## posts
+
+1. 2009-01-01, [Install Linux With Pen Drive](posts/2009-01-01-install-linux-with-usb-drive.md)
+1. 2021-01-10, [No Title](posts/2019-08-01-Use-open-source-software-to-organise-your-life.md)
+1. 2019-09-01, ["IELTS Speaking Test - Part 1"](posts/2019-09-01-ielts-speaking-part-1.md)
+1. 2019-01-01, ["IELTS Speaking Test - Part 2&3"](posts/2019-10-01-ielts-speaking-part-2.md)
+1. 2020-03-01, [重构Flask目录](posts/2020-03-01-重构Flask程序目录.md)
+1. 2020-03-27, ["Note of Python import "](posts/2020-03-27-python-import-tricks.md)
+1. 2020-05-31, ["PyQt开发笔记（二）"](posts/2020-05-31-PyQt开发笔记（二）.md)
+1. 2020-06-01, ["PyQt开发笔记（三）多线程"](posts/2020-06-01-PyQt开发笔记（三）多线程.md)
+1. 2020-06-01, ["PyQt开发笔记（四）通用的Worker"](posts/2020-06-01-PyQt开发笔记（四）通用Worker.md)
+1. 2020-06-02, ["PyQt开发笔记（五）登录窗口"](posts/2020-06-02-PyQt开发笔记（五）登录窗口的实现.md)
+1. 2021-01-10, ["主动基的一些缺陷以及如何规避"](posts/2020-06-02-有人说主动基金的坏话我补充几句.md)
+1. 2020-06-26, ["PyQt开发笔记（七）不规则进度条"](posts/2020-06-03-PyQt开发笔记（七）不规则控件.md)
+1. 2020-06-03, ["PyQt开发笔记（六）日志打印窗口"](posts/2020-06-03-PyQt开发笔记（六）日志打印窗口.md)
+1. 2020-06-03, ["用Markdown来渲染微信公众号排版"](posts/2020-06-03-微信公众号的Markdown排版工具.md)
+1. 2020-06-03, ["拦截Ajax响应结果"](posts/2020-06-03-拦截Ajax响应结果.md)
+1. 2020-06-04, ["一个商业站点的技术总结"](posts/2020-06-04-商业网站的技术小结.md)
+1. 2020-06-10, ["两个最好的Python在线开发环境"](posts/2020-06-10-两个最好的Python在线开发环境.md)
+1. 2020-06-11, [用Python提取新闻联播摘要和关键字](posts/2020-06-11-用Python提取新闻联播摘要和关键字.md)
+1. 2020-06-11, [静态站点和博客架构](posts/2020-06-11-静态站点和博客架构.md)
+1. 2020-06-12, [免费CDN的最正确使用姿势](posts/2020-06-12-免费CDN的最正确使用姿势.md)
+1. 2020-06-13, [掌握这几个概念就可以延迟放弃matplotlib作图](posts/2020-06-13-掌握这几个概念就可以延迟放弃matplotlib作图.md)
+1. 2020-06-15, [抓取微信公众号内容](posts/2020-06-15-抓取微信公众号.md)
+1. 2020-06-17, [Go语言30分钟入门](https://www.runoob.com/go/go-tutorial.html)
+1. 2020-06-19, ["集成pocket书签服务"](posts/2020-06-19-集成pocket书签服务.md)
+1. 2020-06-25, ["PythonCookbook笔记"](posts/2020-06-25-PythonCookbook笔记.md)
+1. 2020-06-25, ["Python设计模式"](posts/2020-06-25-设计模式.md)
+1. 2020-07-11, ["公众号和网站的定位"](posts/2020-07-11-公众号和网站的定位.md)
+1. 2020-07-27, ["PyQt开发笔记（八）Layout注意事项"](posts/2020-07-27-PyQt开发笔记（八）Layout注意事项.md)

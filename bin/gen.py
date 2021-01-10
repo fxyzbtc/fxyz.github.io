@@ -51,6 +51,15 @@ class MD(object):
             tags = []
         finally:
             return tags
+    #解析itemurl (bookmark)字段
+    @property
+    def itemurl(self) -> str:
+        try:
+            url = self.md.metadata['itemurl']
+        except KeyError:
+            url = ''
+        finally:
+            return url
 
     # 判断是否是draft
     @property
@@ -73,13 +82,18 @@ def main(dirs, index: Path, tpl: str) -> None:
         for fpath in dirs:
             result.append(f'## {fpath.name}\n')
             for sub_fpath in fpath.iterdir():
+                # md files
                 if sub_fpath.is_file() and sub_fpath.name.split('.')[1] == 'md':
                     mk = MD(sub_fpath)
                     if not mk.is_draft:
-                        result.append(f'1. {mk.date}, [{mk.title}]({fpath.name}/{sub_fpath.name})')
-                
+                        # bookmark md without content
+                        if mk.itemurl: # place mark link only
+                            result.append(f'1. {mk.date}, [{mk.title}]({mk.itemurl})')
+                        # regular md
+                        else:
+                            result.append(f'1. {mk.date}, [{mk.title}]({fpath.name}/{sub_fpath.name})')
+                # html files
                 if sub_fpath.is_file() and sub_fpath.name.split('.')[1] == 'html':
-                    
                     title = extract_html_title(sub_fpath)
                     result.append(f'1. [{title}]({fpath.name}/{sub_fpath.name})')
         index_fp.write('\n'.join(result))

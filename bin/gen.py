@@ -39,7 +39,7 @@ class MD(object):
     @property
     def title(self) -> str:
         try:
-            return self.md.metadata['title']
+            return self.md.metadata['title'].replace('"', '').replace('“', '').replace('”', '')
         except KeyError:
             return 'No Title'
     # 解析md的tag字段

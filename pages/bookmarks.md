@@ -1,5 +1,5 @@
 ---
-title: "我的书签"
+title: "文摘"
 ---
 
 ## bookmarks

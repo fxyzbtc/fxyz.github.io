@@ -1,5 +1,5 @@
 ---
-title:  About Myself
+title:  About
 tags: [about]
 draft: false
 ---

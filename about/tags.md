@@ -1,5 +1,5 @@
 ---
-title: tags
+title: Tags
 ---
 ## All Tags of This Site
 * [python](../tags/python.md) (8)

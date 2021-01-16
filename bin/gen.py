@@ -184,6 +184,6 @@ title: "文摘"
 '''
     gen_index(BOOKMARKS_PATHS, Path('pages/bookmarks.md'), tpl=bookmarks_tpl)
     
-    tags_tpl = '''---\ntitle: tags\n---\n## All Tags of This Site'''
+    tags_tpl = '''---\ntitle: Tags\n---\n## All Tags of This Site'''
     # tags
     gen_tag_pages(TAGS_PATHS, Path('about/tags.md'), tpl=tags_tpl)

@@ -1,2 +1,2 @@
 ## about
-* 2022-05-31, [me.md](../about/me.md)
+* 2022-06-01, [me.md](../about/me.md)

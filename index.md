@@ -1,13 +1,13 @@
-> Last Update: 2022-08-01
+> Last Update: 2022-08-02
 
 ## about
-1. 2022-08-01, [About](about/me.md)
-1. 2022-08-01, [Tags](about/tags.md)
+1. 2022-08-02, [About](about/me.md)
+1. 2022-08-02, [Tags](about/tags.md)
 ## pages
 1. [2019-06-01, IELTS Speaking Assistant - Part 1](pages/speaking1.html)
 1. 2020-06-19, [吸猫](pages/吸猫.md)
 1. [2019-06-01, IELTS Speaking Assistant - Part 2](pages/speaking23.html)
-1. 2022-08-01, [文摘](pages/bookmarks.md)
+1. 2022-08-02, [文摘](pages/bookmarks.md)
 ## posts
 1. 2020-06-01, [PyQt开发笔记（三）多线程](posts/2020-06-01-PyQt开发笔记三多线程.md)
 1. 2020-06-03, [用Markdown来渲染微信公众号排版](posts/2020-06-03-微信公众号的Markdown排版工具.md)
